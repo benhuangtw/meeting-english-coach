@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>會議英文教練</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="jp-header">
+      <div class="jp-brand">
+        <div class="kicker">MEETING ENGLISH COACH · 英文會議回顧工具</div>
+        <h1>會議英文教練</h1>
+        <p class="brand-ja">讓每一次會議表達，都能回頭練得更好。</p>
+      </div>
+    </header>
+
+    <section class="hero" hidden>
+      <div class="hero-card">
+        <p class="subtle">個人用的英文會議回顧工具</p>
+        <h1>會議英文教練</h1>
+        <p>上傳自己的會議錄音，先轉成逐字稿，再校對內容，最後取得更自然的英文說法建議。</p>
+        <p>適合用來回顧你在英文會議中的表達方式，找出不順的句子、常見用詞習慣，以及下次可以怎麼說得更清楚。</p>
+      </div>
+    </section>
+
+    <nav class="tabs" aria-label="Primary tabs">
+      <button class="tab active" data-tab="analyze"><span class="tab-num">01</span><span>分析</span></button>
+      <button class="tab" data-tab="batch"><span class="tab-num">02</span><span>批次處理</span></button>
+      <button class="tab" data-tab="history"><span class="tab-num">03</span><span>回顧紀錄</span></button>
+      <button class="tab" data-tab="settings"><span class="tab-num">04</span><span>設定</span></button>
+    </nav>
+
+    <main class="layout">
+      <section class="panel" id="main-panel"></section>
+    </main>
+
+    <footer class="jp-footer">
+      <span class="stamp">會議英文教練 · MEC</span>
+      <span>WASHI · WARM · MINIMAL</span>
+    </footer>
+  </div>
+
+  <script src="./app.js?v=20260517-2354"></script>
+</body>
+</html>
