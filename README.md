@@ -18,6 +18,16 @@
 
 ---
 
+## 介面預覽
+
+### 設定頁面
+![設定頁面](https://github.com/user-attachments/assets/07f949d5-6baa-4b5f-9703-bce912ad66bb)
+
+### 分析結果
+![分析結果](https://github.com/user-attachments/assets/1a69bcaf-389c-43ce-b3c4-3e0a94c2dfee)
+
+![分析結果（詳細建議）](https://github.com/user-attachments/assets/ca1855a8-02dc-417f-8221-5acbbceec90d)
+
 ### 使用需求
 
 - Node.js 20+
@@ -36,12 +46,4 @@ npm start
 音訊檔案會透過 Gemini API 送到 Google 處理，使用前請確認符合你的資料政策。
 詳見 PRIVACY.md。
 
-## 介面預覽
 
-### 設定頁面
-![設定頁面](https://github.com/user-attachments/assets/07f949d5-6baa-4b5f-9703-bce912ad66bb)
-
-### 分析結果
-![分析結果](https://github.com/user-attachments/assets/1a69bcaf-389c-43ce-b3c4-3e0a94c2dfee)
-
-![分析結果（詳細建議）](https://github.com/user-attachments/assets/ca1855a8-02dc-417f-8221-5acbbceec90d)
